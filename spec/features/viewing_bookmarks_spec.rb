@@ -1,7 +1,7 @@
 feature 'Homepage' do
   scenario 'visiting the index page' do
     visit('/')
-    expect(page).to have_content "Bookmark Manager"
+    expect(page).to have_content "Bookmarks Manager"
   end
 end
 
